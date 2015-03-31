@@ -83,7 +83,7 @@ if __name__=="__main__":
     print MAXDOCID
     query = raw_input("what do you want to look for? ")
     how_many = int(raw_input("how many documents do you want to see? "))
-    k = 20
+    k = 30
     start_time = time.clock()
     search(query, k, how_many)
     end_time = time.clock()
